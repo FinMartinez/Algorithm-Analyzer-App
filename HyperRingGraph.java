@@ -1,3 +1,34 @@
+/*
+ * Project Name: Graph Theory Analysis and AI Recommendations
+ * File Name: HyperRingGraph.java
+ * Author: Fin Martinez
+ * Course: Algorithms and Analysis (CS 4050)
+ * Professor: Dr. Alsaffar
+ * Date: 12/11/2024
+ * Version: 1.1
+ * 
+ * Description:
+ * This class defines the structure and behavior of a HyperRing graph — a type of 
+ * graph where each node connects to others based on power-of-two offsets (1, 2, 4, ...),
+ * wrapping within bounds using bitwise operations. The program allows:
+ * - Construction of the HyperRing graph given a user-defined number of nodes.
+ * - Display of the graph as both an adjacency list and an adjacency matrix.
+ * - Execution of Depth-First Search (DFS) and Breadth-First Search (BFS) from a user-defined start node.
+ * 
+ * Features:
+ * - Interactive console-based interface for graph creation and traversal.
+ * - Efficient bitwise logic for neighbor computation in graph construction.
+ * - Validated user input for start node selection and traversal type.
+ * - Option to perform multiple graph operations in one session.
+ * 
+ * Notes:
+ * - This file functions independently from AI/ML modules and other graph algorithms like 
+ *   Dijkstra’s or MST — those are handled in separate files/classes within the project.
+ * - To fully utilize AI-based recommendations or additional graph algorithms, ensure 
+ *   relevant classes (e.g., GraphLoader, AIAnalyzer, DijkstraTestCases, etc.) are implemented 
+ *   and integrated into the main application.
+ */
+
 import java.util.*;
 
 public class HyperRingGraph {
